@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.weather-cards {
+  padding: 18px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+
+}
+
+.weather-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 5px;
+  width: 200px;
+  justify-content: center;
+}
+
+.weather-cards title {
+  font-weight: 500;
+}
